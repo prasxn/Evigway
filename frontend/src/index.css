@@ -130,9 +130,9 @@ nav button {
 }
 /* auth forms */
 form.signup, form.login {
-  max-width: 400px;
+  max-width: 200px;
   margin: 40px auto;
-  padding: 20px;
-  background: #689ff0;
-  border-radius: 4px;
+  padding: 100px;
+  background: #68f0d9;
+  border-radius: 8px;
 }
