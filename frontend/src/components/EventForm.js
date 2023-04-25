@@ -44,30 +44,30 @@ const EventForm = () => {
 
   return (
     <form className="create" onSubmit={handleSubmit}> 
-      <h3>Add a New event</h3>
+      <h3>Add Event</h3>
 
-      <label>Event Title:</label>
+      <label>Event:</label>
       <input 
         type="text" 
         onChange={(e) => setTitle(e.target.value)} 
         value={title}
       />
 
-      <label>Description :</label>
+      <label>About:</label>
       <input 
         type="text" 
         onChange={(e) => setDescription(e.target.value)} 
         value={description}
       />
 
-      <label>Date of event:</label>
+      <label>Timings:</label>
       <input 
         type="number" 
         onChange={(e) => setDate(e.target.value)} 
         value={date} 
       />
 
-      <button>Add Event</button>
+      <button>Set Event</button>
       {error && <div className="error">{error}</div>}
     </form>
   )

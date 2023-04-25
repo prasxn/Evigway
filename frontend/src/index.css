@@ -17,7 +17,7 @@ code {
 /* layout */
 :root {
   --primary: #1aac83;
-  --error: #19e750;
+  --error: #ffffff;
 }
 body {
   background: #859917;
@@ -47,7 +47,7 @@ header a {
 
 /* homepage */
 .home {
-  display: grid;
+  display: block;
   grid-template-columns: 3fr 1fr;
   gap: 100px;
 }
@@ -59,7 +59,7 @@ header a {
   position: relative;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
 }
-.event-details h4 {
+.event-details h2 {
   margin: 0 0 10px 0;
   font-size: 1.2em;
   color: var(--primary);
@@ -97,13 +97,13 @@ form button {
   border: 0;
   color: #fff;
   padding: 10px;
-  font-family: "Poppins";
+  font-family: "Parkavenue";
   border-radius: 4px;
   cursor: pointer;
 }
 div.error {
   padding: 10px;
-  background: #ffefef;
+  background: #f03939;
   border: 1px solid var(--error);
   color: var(--error);
   border-radius: 4px;
@@ -115,7 +115,7 @@ nav {
   align-items: center;
 }
 nav a {
-  margin-left: 10px;
+  margin-left: 20px;
 }
 nav button {
   background: #f79595;
@@ -123,7 +123,7 @@ nav button {
   border: 2px solid var(--primary);
   padding: 6px 10px;
   border-radius: 4px;
-  font-family: "Poppins";
+  font-family: "Parkavenue";
   cursor: pointer;
   font-size: 1em;
   margin-left: 10px;
